@@ -5,7 +5,8 @@ a="a.png"
 b="b.png"
 c="c.png"
 d="d.png"
-for i in range(20):
+m=input("Enter No. of Question:")
+for i in range(int(m)):
     n=random.randint(1,4)
     print(n)
     if(n==1):
